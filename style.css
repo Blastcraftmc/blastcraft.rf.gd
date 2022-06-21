@@ -1,0 +1,154 @@
+body {
+  background-image: url('bkgds.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+  margin-left:75px;
+  margin-right:75px;
+  padding:0;
+  font-family: Verdana;
+}
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+hr {
+  height: 2px;
+  background-color: #e87600;
+  border: none;
+}
+
+#commTxt {
+    display: inline
+}
+
+#largeTitle {
+ font-size: 50px;
+ color: white;
+}
+
+#whatText {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+#page {
+    margin-left: 200px;
+}
+
+#maincontent {
+    float: right;
+    width: 100%;
+    background-color: #F0F0F0;
+}
+
+#menuleftcontent{
+    float: left;
+    width: 200px;
+    margin-left: -200px;
+    background-color: #CCCCCC;
+}
+
+#clearingdiv {
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    border-right: 1px solid transparent;
+    list-style:none;
+}
+
+li a {
+    display: block;
+    color: transparent;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: transparent;
+}
+
+#nodot {
+    list-style:none;
+}
